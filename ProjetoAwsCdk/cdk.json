@@ -1,0 +1,7 @@
+{
+  "app": "mvn exec:java -Dexec.mainClass=\"br.com.winter.CdkApp\"",
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "@aws-cdk/core:checkSecretUsage": true
+  }
+}
